@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Générer des événements conditionnés par une exposition déclarée', 'en': 'Generate events conditional on declared exposure', 'es': 'Generar eventos condicionados por exposición declarada'}

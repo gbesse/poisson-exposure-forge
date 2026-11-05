@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "rate_per_unit": 2,
+  "entities": [
+    {
+      "id": "a",
+      "exposure": 0
+    },
+    {
+      "id": "b",
+      "exposure": 1
+    },
+    {
+      "id": "c",
+      "exposure": 5
+    }
+  ]
+}

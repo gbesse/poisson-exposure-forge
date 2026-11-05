@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poisson-exposure-forge"
+version = "0.1.0a1"
+description = "FR: Générer des événements conditionnés par une exposition déclarée | EN: Generate events conditional on declared exposure | ES: Generar eventos condicionados por exposición declarada"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+poisson-exposure-forge = "poisson_exposure_forge.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["poisson_exposure_forge*"]
